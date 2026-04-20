@@ -124,7 +124,7 @@ $hero_desc     = ($current_lang === 'en' && !empty($hero['description_en'])) ? $
         <div class="hamburger" onclick="toggleMobileMenu()"><i class="fa-solid fa-bars"></i></div>
         <div class="nav-links" id="navLinks">
             <ul class="nav-menu">
-                <li><a href="index" class="active"><?= $t['menu_home'] ?? 'หน้าแรก' ?></a></li>
+                //<li><a href="index" class="active"><?= $t['menu_home'] ?? 'หน้าแรก' ?></a></li>
                 
                 <li><a href="projects"><?= $t['menu_projects'] ?? 'โครงการ' ?></a></li>
                 
