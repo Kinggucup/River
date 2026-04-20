@@ -128,7 +128,7 @@ $hero_desc     = ($current_lang === 'en' && !empty($hero['description_en'])) ? $
                 
                 <li><a href="projects"><?= $t['menu_projects'] ?? 'โครงการ' ?></a></li>
                 
-                <li><a href="index#recommended"><?= $t['menu_recommended'] ?? 'โครงการแนะนำ' ?></a></li>
+                <li><a href="index#recommended"><?= $t['menu_recommended'] ?? 'โครงการแนะนำ นะจ๊ะ' ?></a></li>
             </ul>
             
             <button class="btn-contact"><?= $t['btn_contact'] ?? 'ติดต่อเรา' ?></button>
