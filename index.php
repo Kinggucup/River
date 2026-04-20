@@ -159,7 +159,7 @@ $hero_desc     = ($current_lang === 'en' && !empty($hero['description_en'])) ? $
     </header>
 
     <section id="recommended" class="section-featured">
-        <h2 class="section-title"><?= ($current_lang === 'en') ? 'Recommended Projects' : 'โครงการแนะนำนะจ๊ะ' ?></h2>
+        <h2 class="section-title"><?= ($current_lang === 'en') ? 'Recommended Projects' : 'โครงการแนะนำ' ?></h2>
         
         <div class="swiper recommendedSwiper">
             <div class="swiper-wrapper">
