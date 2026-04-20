@@ -124,14 +124,14 @@ $hero_desc     = ($current_lang === 'en' && !empty($hero['description_en'])) ? $
         <div class="hamburger" onclick="toggleMobileMenu()"><i class="fa-solid fa-bars"></i></div>
         <div class="nav-links" id="navLinks">
             <ul class="nav-menu">
-                //<li><a href="index" class="active"><?= $t['menu_home'] ?? 'หน้าแรก' ?></a></li>
+                <li><a href="index" class="active"><?= $t['menu_home'] ?? 'หน้าแรก' ?></a></li>
                 
                 <li><a href="projects"><?= $t['menu_projects'] ?? 'โครงการ' ?></a></li>
                 
                 <li><a href="index#recommended"><?= $t['menu_recommended'] ?? 'โครงการแนะนำ' ?></a></li>
             </ul>
             
-            <button class="btn-contact"><?= $t['btn_contact'] ?? 'ติดต่อเรา' ?></button>
+            \*<button class="btn-contact"><?= $t['btn_contact'] ?? 'ติดต่อเรา' ?></button>*\
             <div class="lang-switch" style="display: flex; gap: 10px; align-items: center; margin-left: 20px;">
                 <a href="?lang=th" style="color: <?= $current_lang == 'th' ? 'var(--accent-yellow)' : '#fff' ?>; text-decoration: none; font-weight: bold;">TH</a>
                 <span style="color: rgba(255,255,255,0.5);">|</span>
